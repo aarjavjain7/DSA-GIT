@@ -10,6 +10,9 @@ struct rectangle
     int length;
     int breadth;
     char x;
+    // here character should be given size of 1 but it will give size 4 because 
+    // length and breadth will give values of 4 so char will also take value of 4
+    // istead of getting a seperate block of 1
 };
 
 int main()
